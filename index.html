@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETRA-ROVER MONITORING SYSTEM</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+<body>
+    <header class="topbar"
+     <!-- This is for logo and brand -->
+    <div class="brand">
+        <div class="brand-logo">N</div>
+        <div>
+            <h1>NETRA</h1>
+            <P>Robot Mission Control</P>
+        </div>
+    </div>
+<!-- this block is for navigation section -->
+    <nav>
+        <a href="#Dashboard">Dashboard</a>
+        <a href="#fleet">fleet</a>
+        <a href="#Telemetry">Telemetry</a>
+        <a href="#Alerts">Alert</a>
+    </nav>
+
+    <!-- This block shows system online and time -->
+     <!-- if we write any propites in header then it applicable to all the child div -->
+     <div class="header-right">
+        <!-- header lo right side info ni oka box lo group chestunam -->
+        <!-- span tag keeps in one line -->
+         <!-- classes we are writing for disinging purpose -->
+          <!-- but here if we write proprites it only applable to span -->
+        <span class="online-dot"></span>
+        <span>SYSTEM ONLINE</span>
+        <strong id="clock">--:--:--</strong>
+     </div>
+
+     <!-- this is for dispatch Mission button -->
+    <button id="dispatch-pen" type="button">dispatch Mission</button>
+    </header>
+</body>
+</html>

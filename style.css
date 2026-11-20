@@ -1,0 +1,98 @@
+/*==========Global Reset========== */
+
+*{
+    box-sizing:border-box;
+    /* border-box; element width and height calculations ni easy ga manage chestundhi */
+    margin:0;
+    padding: 0;
+}
+
+html{
+    /* makes the scroll smoonth  */
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(148, 194, 239);
+    color: rgb(239, 235, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;    
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 241, 241);
+    color: rgb(76, 170, 232);
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.topbar{
+    min-height: 82px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap:20px;
+    padding: 15px 4%;
+    background-color: rgb(3, 17, 19);
+    border-color: 1px solid rgb(136, 227, 111);
+
+ /* flex is used to display the iteams in single row */
+ /* align-centre , justify-content,gap are derived proerties of the flex */
+ /* gap is same like justify-content */
+    
+}
+ .brand {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+ }
+
+ .brand-logo {
+    background: rgb(84, 118, 231);
+    border-radius: 10px;
+    padding:12px 16px;
+    font-weight: bold;
+    font-size:23px;
+ }
+
+ .brand h1{
+    color: blue;
+    letter-spacing: 12px;
+ }
+
+ .brand p{
+    color: beige;
+    font-size: 12px;
+ }
+ nav{
+    display: flex;
+    gap: 20px;
+ }
+  
+ nav a{
+    color: rgb(238, 235, 240);
+    font-size: 13px;
+    text-decoration: none;
+ }
+ nav a:hover{
+    color: blue;
+ }
+
+ .header-right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    color: green;
+    font-size: 11px;
+ }
+
+ #clock{
+    color: white;
+    font-family: monospace;
+    marign-left: 10px;
+    /* marign-left gives some space in left */
+ }
+   
