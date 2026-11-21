@@ -90,8 +90,8 @@ button{
  }
 
  #clock{
-    color: white;
-    font-family: monospace;
+    color: rgb(200, 247, 11);
+    font-family: Arial, Helvetica, sans-serif;
     marign-left: 10px;
     /* marign-left gives some space in left */
  }
