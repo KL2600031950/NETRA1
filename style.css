@@ -79,6 +79,7 @@ button{
  }
  nav a:hover{
     color: blue;
+
  }
 
  .header-right {
@@ -95,4 +96,43 @@ button{
     marign-left: 10px;
     /* marign-left gives some space in left */
  }
+ 
+ .page p{
+   color: palegreen;
+ }
+ .kpi-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 30px;
+ }
+ .kpi-card{
+   background-color: rgb(4, 4, 58);
+   border: 1px solid black;
+   border-radius: 12px;
+   padding: 22px;
+   transition: 0.2s;
+ }
+
+ .kpi-card:hover{
+   border-color: white;
+   transform: translateY(-3px);
+ }
    
+ .kpi-card span{
+   color: rgb(230, 160, 221);
+   font-size: 10px;
+   font-weight: bold;
+   letter-spacing: 1px;
+
+ }
+ .kpi-card h1{
+   color: rgb(168, 144, 12);
+   font-size: 30px;
+   margin: 14px 0 8px;
+ }
+
+ .kpi-card p{
+   color: blanchedalmond;
+   font-size: 12px;
+ }
